@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Fullmicroservice.iml" filepath="$PROJECT_DIR$/.idea/Fullmicroservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/E-commerce-app/services/discovery/discovery.iml" filepath="$PROJECT_DIR$/E-commerce-app/services/discovery/discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/E-commerce-app/services/servicedonfiguration/servicedonfiguration.iml" filepath="$PROJECT_DIR$/E-commerce-app/services/servicedonfiguration/servicedonfiguration.iml" />
+    </modules>
+  </component>
+</project>
