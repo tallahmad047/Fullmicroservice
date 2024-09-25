@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/E-commerce-app/services/discovery/pom.xml" />
         <option value="$PROJECT_DIR$/E-commerce-app/services/servicedonfiguration/pom.xml" />
         <option value="$PROJECT_DIR$/E-commerce-app/services/customer/pom.xml" />
+        <option value="$PROJECT_DIR$/product/pom.xml" />
+        <option value="$PROJECT_DIR$/E-commerce-app/services/product/pom.xml" />
       </list>
     </option>
   </component>

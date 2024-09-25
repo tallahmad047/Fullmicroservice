@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="product" />
         <module name="discovery" />
         <module name="servicedonfiguration" />
         <module name="customer" />
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="customer" target="17" />
       <module name="discovery" target="17" />
+      <module name="product" target="17" />
       <module name="servicedonfiguration" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -22,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="customer" options="-parameters" />
       <module name="discovery" options="-parameters" />
+      <module name="product" options="-parameters" />
       <module name="servicedonfiguration" options="-parameters" />
     </option>
   </component>

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Fullmicroservice.iml" filepath="$PROJECT_DIR$/.idea/Fullmicroservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/E-commerce-app/services/customer/customer.iml" filepath="$PROJECT_DIR$/E-commerce-app/services/customer/customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/E-commerce-app/services/discovery/discovery.iml" filepath="$PROJECT_DIR$/E-commerce-app/services/discovery/discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product/product.iml" filepath="$PROJECT_DIR$/product/product.iml" />
       <module fileurl="file://$PROJECT_DIR$/E-commerce-app/services/servicedonfiguration/servicedonfiguration.iml" filepath="$PROJECT_DIR$/E-commerce-app/services/servicedonfiguration/servicedonfiguration.iml" />
     </modules>
   </component>
