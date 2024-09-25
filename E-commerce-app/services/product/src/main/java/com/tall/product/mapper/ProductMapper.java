@@ -5,7 +5,9 @@ import com.tall.product.product1.Product;
 import com.tall.product.request.ProductRequest;
 import com.tall.product.response.ProductPurchaseResponse;
 import com.tall.product.response.ProductResponse;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ProductMapper {
     public Product toProduct(ProductRequest request) {
         return Product.builder()
