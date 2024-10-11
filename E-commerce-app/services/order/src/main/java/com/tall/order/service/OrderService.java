@@ -5,6 +5,7 @@ import com.tall.order.kafka.OrderConfirmation;
 import com.tall.order.kafka.OrderProducer;
 import com.tall.order.oderline.OrderLineRequest;
 import com.tall.order.oderline.OrderLineService;
+import com.tall.order.payment.PaymentClient;
 import com.tall.order.product.ProductClient;
 import com.tall.order.product.PurchaseRequest;
 import com.tall.order.request.OrderRequest;
@@ -62,7 +63,7 @@ public class OrderService {
                 order.getReference(),
                 customer
         );
-        //paymentClient.requestOrderPayment(paymentRequest);
+        paymentClient.requestOrderPayment(paymentRequest);
 
         orderProducer.sendOrderConfirmation(
                 new OrderConfirmation(
