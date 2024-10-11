@@ -31,6 +31,7 @@ public class OrderController {
 
     @GetMapping
     public ResponseEntity<List<OrderResponse>> findAll() {
+
         return ResponseEntity.ok(this.service.findAllOrders());
     }
 
