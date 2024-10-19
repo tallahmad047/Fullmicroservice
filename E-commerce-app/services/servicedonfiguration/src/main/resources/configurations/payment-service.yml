@@ -8,7 +8,7 @@ spring:
     password: tall
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
@@ -17,8 +17,8 @@ spring:
       bootstrap-servers: localhost:9092
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
-      #properties:
-       # spring.json.type.mapping: paymentConfirmation:com.alibou.ecommerce.notification.PaymentNotificationRequest
+      properties:
+        spring.json.type.mapping: paymentConfirmation:com.tall.payment.notification.PaymentNotificationRequest
 application:
   config:
     product-url: http://localhost:8222/api/v1/products

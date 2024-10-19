@@ -4,7 +4,7 @@ metadata:
   labels:
     app: sonarqube
   name: sonarqube
-  namespace: lcf-k8s-devops
+  namespace: ecommerce-devops
 spec:
   replicas: 1
   selector:

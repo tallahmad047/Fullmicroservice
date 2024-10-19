@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: cm-devops
-  namespace: lcf-k8s-devops
+  namespace: ecommerce-devops
 data:
   pg_data: /var/lib/postgresql/data/pgdata
   pg_username: postgres
