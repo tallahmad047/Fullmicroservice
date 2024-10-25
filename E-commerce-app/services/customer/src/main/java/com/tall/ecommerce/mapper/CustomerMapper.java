@@ -3,7 +3,9 @@ package com.tall.ecommerce.mapper;
 import com.tall.ecommerce.controller.CustomerRequest;
 import com.tall.ecommerce.controller.response.CustomerResponse;
 import com.tall.ecommerce.customer.Customer;
+import org.springframework.stereotype.Service;
 
+@Service
 public class CustomerMapper {
     public Customer toCustomer(CustomerRequest request) {
         if (request == null) {
