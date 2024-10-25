@@ -3,8 +3,8 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/payment
-    username: postgres
+    url: jdbc:postgresql://localhost:5433/payment
+    username: tall
     password: tall
   jpa:
     hibernate:
