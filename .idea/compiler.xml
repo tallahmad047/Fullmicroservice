@@ -9,10 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="notification" />
         <module name="product" />
+        <module name="gateway1" />
         <module name="discovery" />
         <module name="servicedonfiguration" />
         <module name="payment" />
-        <module name="geteway" />
         <module name="customer" />
         <module name="order" />
       </profile>
@@ -20,6 +20,7 @@
     <bytecodeTargetLevel>
       <module name="customer" target="17" />
       <module name="discovery" target="17" />
+      <module name="gateway1" target="17" />
       <module name="geteway" target="17" />
       <module name="notification" target="17" />
       <module name="order" target="17" />
@@ -32,6 +33,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="customer" options="-parameters" />
       <module name="discovery" options="-parameters" />
+      <module name="gateway1" options="-parameters" />
       <module name="geteway" options="-parameters" />
       <module name="notification" options="-parameters" />
       <module name="order" options="-parameters" />

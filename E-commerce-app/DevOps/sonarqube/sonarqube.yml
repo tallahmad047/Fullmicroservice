@@ -14,7 +14,7 @@ spec:
     metadata:
       labels:
         app: sonarqube
-      namespace: lcf-k8s-devops
+      namespace: ecommerce-devops
     spec:
       containers:
       - image: sonarqube:lts-community

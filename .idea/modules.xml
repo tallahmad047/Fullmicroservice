@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Fullmicroservice.iml" filepath="$PROJECT_DIR$/.idea/Fullmicroservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/E-commerce-app/services/customer/customer.iml" filepath="$PROJECT_DIR$/E-commerce-app/services/customer/customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/E-commerce-app/services/discovery/discovery.iml" filepath="$PROJECT_DIR$/E-commerce-app/services/discovery/discovery.iml" />
-      <module fileurl="file://$PROJECT_DIR$/E-commerce-app/services/geteway/geteway.iml" filepath="$PROJECT_DIR$/E-commerce-app/services/geteway/geteway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/E-commerce-app/services/gateway1/gateway1.iml" filepath="$PROJECT_DIR$/E-commerce-app/services/gateway1/gateway1.iml" />
       <module fileurl="file://$PROJECT_DIR$/E-commerce-app/services/notification/notification.iml" filepath="$PROJECT_DIR$/E-commerce-app/services/notification/notification.iml" />
       <module fileurl="file://$PROJECT_DIR$/E-commerce-app/services/order/order.iml" filepath="$PROJECT_DIR$/E-commerce-app/services/order/order.iml" />
       <module fileurl="file://$PROJECT_DIR$/E-commerce-app/services/payment/payment.iml" filepath="$PROJECT_DIR$/E-commerce-app/services/payment/payment.iml" />

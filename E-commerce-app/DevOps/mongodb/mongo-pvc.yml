@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  namespace: ecommerce-devops
+  name: pvc
+spec:
+  storageClassName: standard  # Ou remplace par la StorageClass par défaut disponible
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi

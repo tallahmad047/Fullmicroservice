@@ -7,10 +7,11 @@ import jakarta.validation.constraints.Positive;
 
 import java.math.BigDecimal;
 
-public class PaymentRequest {
-    public PaymentRequest(@Positive(message = "Order amount should be positive")
-                          BigDecimal amount, @NotNull(message = "Payment method should be precised")
-                             PaymentMethod paymentMethod,
-                          Integer id, String reference, CustomerResponse customer) {
-    }
+public record PaymentRequest(
+        BigDecimal amount,
+        PaymentMethod paymentMethod,
+        Integer orderId,
+        String orderReference,
+        CustomerResponse customer
+) {
 }

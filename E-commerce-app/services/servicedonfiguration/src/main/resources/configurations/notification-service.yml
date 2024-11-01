@@ -6,7 +6,7 @@ spring:
       username: tall
       password: tall
       host: localhost
-      port: 27017
+      port: 27010
       database: notification
       authentication-database: admin
   kafka:

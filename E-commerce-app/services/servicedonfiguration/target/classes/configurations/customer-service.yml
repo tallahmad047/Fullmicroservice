@@ -1,12 +1,12 @@
 server:
-  port: 8090
+  port: 8099
 spring:
   data:
     mongodb:
       username: tall
       password: tall
       host: localhost
-      port: 27017
+      port: 27010
       database: customer
       authentication-database: admin
 

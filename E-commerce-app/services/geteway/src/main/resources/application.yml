@@ -1,7 +1,0 @@
-server:
-  port: 8222
-spring:
-  config:
-    import: optional:configserver:http://localhost:8888
-  application:
-    name: gateway-service
